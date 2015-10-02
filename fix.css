@@ -1,19 +1,52 @@
 body {
   
     color: black;
-    font-size: 10px;
+    font-size: 25px;
+	width:80%;
+	
+	line-height:1.6em;
+	margin:0 auto;
+}
+h2{
+background-color:#CCCCFF;
+}
+.text{
+width:68%;
+margin: 0 auto;
 }
 
+caption{
+display:none;
+}
 table, tr, td, th {
   border-collapse: collapse;
+  border: 1px black solid;
+  padding:5px;
+  font-size:15px;
+  background-color:#FFCC99;
+
+}
+table{
+margin-left:10px;
 }
 
 .bacon-info {
-   
+ font-family:Tahoma, Geneva, sans-serif;
  
 }
 
+
 .bacon-answer {
-    color: white;
-    font-family: "Times New Roman";
+    color: black;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.title{
+color:#0000CC;
+}
+h2{
+text-align:center;
+}
+img{
+width:300px;
+height:400px;
 }
